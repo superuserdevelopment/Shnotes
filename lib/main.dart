@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shrotes/pages/home.dart';
+import 'package:shrotes/pages/loading.dart';
 void main() {
   runApp(MyApp());
 }
@@ -22,12 +23,18 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
         primarySwatch: Colors.blue,
+        accentColor: Colors.white,
         // This makes the visual density adapt to the platform that you run
         // the app on. For desktop platforms, the controls will be smaller and
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: HomePage(),
+      initialRoute: '/',
+      routes: {
+        '/' : (context)=>LoadingScreen(),
+        '/home' : (context)=>HomePage(),
+
+      },
     );
   }
 }

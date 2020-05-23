@@ -33,7 +33,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   curved_navigation_bar: ^0.3.2
-
+  flutter_spinkit: ^4.1.2+1
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
@@ -47,9 +47,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images/top_curve_bar.png
-    - assets/images/bottom_curve_bar.png
+    - assets/images/note_icon.png
     - assets/images/icons8-qr-code-90.png
+
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 
