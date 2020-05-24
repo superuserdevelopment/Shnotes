@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "606547099512",
+    "firebase_url": "https://shnotes-15103.firebaseio.com",
+    "project_id": "shnotes-15103",
+    "storage_bucket": "shnotes-15103.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:606547099512:android:df77e9f7fecb357cd3528d",
+        "android_client_info": {
+          "package_name": "com.superuserdev.shrotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "606547099512-ra83dm10oqcvt3mn8bgub2du7m6k7h81.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3QqJPMrXYw6kNpKkOwBZtB4AP5aSiQHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "606547099512-ra83dm10oqcvt3mn8bgub2du7m6k7h81.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

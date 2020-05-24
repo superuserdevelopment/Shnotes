@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:shrotes/services/auth.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -10,6 +11,9 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
 
   List<Note> notes = List<Note>();
+
+  final AuthenticationService _auth = AuthenticationService();
+
   @override
   void initState() {
     super.initState();
@@ -56,6 +60,13 @@ class _HomePageState extends State<HomePage> {
                         fontSize: 60.0,
                         fontFamily: 'Calibre',
                       ),
+                    ),
+                    RaisedButton(
+                      child: Text('Log Out'),
+                      onPressed: ()async{
+                        await _auth.signOut();
+                        Navigator.pushNamed(context, '/wrapper');
+                      },
                     ),
                     qrButton(),
                   ],
@@ -237,6 +248,7 @@ Widget qrButton() {
         splashColor: Color(0xFF59C3A5),
         onTap: () {
           //Write Code to Scan QR Code
+
         },
       ),
     ),
