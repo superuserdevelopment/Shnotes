@@ -25,22 +25,16 @@ class _LoadingScreenState extends State<LoadingScreen> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-//            Icon(Icons.bubble_chart,
-//              color: Colors.white,
-//              size: 100.0,
-//            ),
-          //Hello
-            SpinKitChasingDots(
-              size: 100.0,
+            SpinKitCubeGrid(
+              size: 80.0,
               color: Colors.white,
             ),
-            SizedBox(height: 10.0,),
+            SizedBox(height: 20.0,),
             Text(
-              'Shnotes',
+              'Loading',
               style: TextStyle(
-                  fontFamily: 'Calibre',
                   color: Colors.white,
-                  fontSize: 50.0
+                  fontSize: 40.0
               ),
             ),
           ],
@@ -57,8 +51,7 @@ Widget _company(){
     children: <Widget>[
       Text(
         'superuserdev </>',
-        style: TextStyle(
-            fontFamily: 'Calibre',
+        style: TextStyle(            
             color: Colors.white,
             fontSize: 30.0
         ),

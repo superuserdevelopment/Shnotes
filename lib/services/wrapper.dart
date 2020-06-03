@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 import 'package:shrotes/models/user.dart';
 import 'package:shrotes/pages/home.dart';
 import 'package:shrotes/pages/SignIn.dart';
+import 'package:shrotes/pages/loading.dart';
 class Wrapper extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

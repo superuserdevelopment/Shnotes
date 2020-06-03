@@ -412,7 +412,7 @@ class NotesOverlook extends StatelessWidget {
                               child: Padding(
                                 padding: const EdgeInsets.symmetric(
                                     vertical: 14.0, horizontal: 12.0),
-                                child: ListView(
+                                child: ListView(                                  
                                   children: <Widget>[
                                     Text(
                                       'from ${note.client} at ${note.inTime.toIso8601String().substring(11,16)}',

@@ -68,6 +68,9 @@ flutter:
     - family: Calibre
       fonts:
         - asset: assets/fonts/CalibreMedium.otf
+    - family: Circular
+      fonts:
+        - asset: assets/fonts/CircularStd-Medium.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

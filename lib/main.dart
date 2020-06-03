@@ -30,7 +30,12 @@ class MyApp extends StatelessWidget {
           // Notice that the counter didn't reset back to zero; the application
           // is not restarted.
           primarySwatch: Colors.blue,
+          primaryColor: Color(0xFF59C3A5),
           accentColor: Colors.white,
+          textTheme: Theme.of(context).textTheme.apply(
+                fontFamily: 'Circular',
+                bodyColor: Colors.white,
+                displayColor: Colors.white),
           // This makes the visual density adapt to the platform that you run
           // the app on. For desktop platforms, the controls will be smaller and
           // closer together (more dense) than on mobile platforms.
