@@ -65,7 +65,6 @@ class _HomePageState extends State<HomePage> {
                       child: Text('Log Out'),
                       onPressed: ()async{
                         await _auth.signOut();
-                        Navigator.pushNamed(context, '/wrapper');
                       },
                     ),
                     qrButton(),
@@ -350,7 +349,7 @@ class NotesOverlook extends StatelessWidget {
                                                   color: Colors.white),
                                             );
                                           }
-                                          print('Test3');
+                                          
                                         }),
                                   ),
                                 ),
