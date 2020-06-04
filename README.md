@@ -1,4 +1,4 @@
-# shrotes
+# shnotes
 
 A new Flutter application.
 
